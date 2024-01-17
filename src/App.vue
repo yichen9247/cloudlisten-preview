@@ -1,6 +1,9 @@
 
 <script setup>
+  // eslint-disable-next-line no-unused-vars
+  import Pace from 'pace-js'
   import "./assets/app.css"
+  import "./assets/paces/pace.css"
   import { message } from 'ant-design-vue'
   import { reactive,onMounted,watch } from "vue"
   onMounted(() => setInterval(() => getStatistics(),1000));
